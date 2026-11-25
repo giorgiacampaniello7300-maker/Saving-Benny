@@ -8,8 +8,7 @@ STATE_FILE = 'data/game_state.json'
 SCORES_FILE = 'data/scores.json'
 
 
-def load_json(path, default):
-    """Read JSON from a file, or return default if the file doesn't exist."""
+def load_json(path, default): 
     if not os.path.exists(path):
         return default
     with open(path, 'r', encoding='utf-8') as f:
@@ -17,7 +16,6 @@ def load_json(path, default):
 
 
 def save_json(path, data):
-    """Save Python data as JSON into a file."""
     with open(path, 'w', encoding='utf-8') as f:
         json.dump(data, f, indent=2)
 
