@@ -1,5 +1,5 @@
-#Saving Benny 
-              #— The Chase Begins!
+#Saving—Benny 
+              #The Chase Begins!
 Benny spots a squirrel at the dog park and takes off after it. By the time you catch up, all you can find is his leash. Which way did he go?
 
 Saving Benny is a 2D browser game we're designing for our group project at Metropolia University of Applied Sciences. We started with a paper prototype where you play as Benny's owner. Each time the path splits, you decide where to look for him next.
