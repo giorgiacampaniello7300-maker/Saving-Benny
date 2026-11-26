@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saving Benny</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <header>
+        <h1>Saving Benny</h1>
+        <h2>The chase begins!</h2>
+    </header>
+    <main>
+        <section id="start">
+            <p>Oh no! Benny has run away chasing a squirrel! It's time to find her and bring her home safe.</p>
+            <button type="button" id="new-game">New game</button>
+            <button type="button" id="continue-game">Continue</button>
+            <button type="button" id="how-to-play">How to play</button>
+        </section>  
+        <section id="instructions">
+            <h2>How to play</h2>
+            <ul>
+                <li>Use the arrow keys to move.</li>
+                <li>Click on items to collect them.</li>
+                <li>Press 'space' to jump.</li>
+                <li>Choose the correct paths to avoid losing lives.</li>
+                <li>Find Benny and bring her home safely!</li>
+            </ul>
+            <button type="button" id="back-button">Back to Menu</button>
+        </section>
+        <section id="game">
+            <h2>Find Benny!</h2>
+            <p>Lives: <span id="lives">3</span></p>
+            <div id="inventory">
+                <h3>Inventory</h3>
+                <ul>
+                    <li id="collar">Collar: not collected</li>
+                    <li id="flashlight">Flashlight: not collected</li>
+                </ul>
+            </div>
+            <div id="game-area"></div>
+        </section>
+        <section id="game-over">
+            <h2>Game over!</h2>
+            <p>Oh no! You couldn't save Benny!</p>
+            <button type="button" id="try-again">Try Again</button>
+            <button type="button" id="defeat-menu">Back to Menu</button>
+        </section>
+        <section id="victory">
+            <h2>You saved Benny!</h2>
+            <p>Congratulations! Benny is finally home safe!</p>
+            <button type="button" id="play-again">Play Again</button>
+            <button type="button" id="victory-menu">Back to Menu</button>
+        </section>
+    </main>
+</body>
+</html>
